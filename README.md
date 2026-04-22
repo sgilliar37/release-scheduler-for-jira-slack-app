@@ -7,6 +7,7 @@ This project includes both JavaScript and Python Slack Bolt implementations that
 - sends an acknowledgement message back to Slack,
 - stores Jira config per Slack workspace (`team_id`) in SQLite.
 
+
 ## What This App Does
 
 1. A Slack workspace admin configures Jira settings with `/jira-config`.

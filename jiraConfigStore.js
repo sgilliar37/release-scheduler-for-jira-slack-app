@@ -23,6 +23,7 @@ export function createJiraConfigStore(dbPath) {
     )
   `);
 
+
   const getByTeamIdStmt = db.prepare(`
     SELECT
       team_id,
